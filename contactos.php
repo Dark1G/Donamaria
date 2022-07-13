@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>dona maria</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+				    <a href="index.php">
+                        <img class="navbar-brand" src="images/logo.png">
+                    </a>
+                    <div class="navbar-right">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="qfix" href="empresa.php">A Empresa</a></li>
+                        <li><a class="qfix" href="registar.php">Registar</a></li>
+                        <li><a href="restaurante.php">Fazer<br>Pedido</a></li>
+                        <li><a href="galeria.php">Fotos<br>e Vídeos</a></li>
+                        <li><a href="palavras.php">Palavras<br>Doces</a></li>
+                        <li><a class="qfix" href="contactos.php">Contactos</a></li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main class="container">
+        <h1 class="titemp">Contactos</h1>
+        <p class="lead subtit">Caso tenha alguma duvida ou precise dos nossos serviços por favor contacte-nos.</p>
+        <hr>
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td><p><b>Direção</b></p></td>
+                        <td>
+                            <p>Diretor: António Carmo Gouveia</p>
+                            <p>Subdiretora: Sílvia Castro</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Telefone</b></p></td>
+                        <td>
+                            <p>+351 965 672 484</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Morada</b></p></td>
+                        <td>
+                            <p>Quinta Dona Maria - Lagoa</p>
+                            <p>Soure, Coimbra, Portugal</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Email</b></p></td>
+                        <td>
+                            <p><a href="https://www.gmail.com">info@eventosdonamaria.com</a></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><p><b>Facebook</b></p></td>
+                        <td>
+                            <p><a href="https://www.facebook.com/QuintaDonaMaria">https://www.facebook.com</a></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        <hr class="linha">
+        <hr>
+	</main>
+    <footer>
+        <div class="col-xs-12 col-sm-12 col-md-12 footcopy">
+            <div class="wrapper">
+                <p class="copytxt">Copyright &copy; 2016 Filipe Silva e Ricardo Carvalho</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
